@@ -100,7 +100,7 @@ The Excel dashboard enables interactive analysis across multiple dimensions:
 * Delivery Time vs Order Volume
 * Revenue Distribution by Value Bands
 
-![E-Commerce Analytics Dashboard](Dashboard/dashboard screenshot.png)
+![E-Commerce analytics Dashboard](Dashboard/dashboard%20screenshot.png)
 
 ---
 
