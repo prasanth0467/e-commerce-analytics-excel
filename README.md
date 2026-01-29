@@ -1,41 +1,132 @@
-# E-Commerce Analytics Dashboard (Excel)
+# 📊 E-Commerce Analytics Dashboard (Excel)
 
-## 📌 Project Overview
-This project analyzes e-commerce order data from Swiggy, Zomato, and Blinkit to uncover revenue drivers, customer concentration, and delivery performance using Microsoft Excel.
+An end-to-end Excel-based analytics project focused on revenue performance, customer concentration, delivery efficiency, and platform contribution using interactive dashboards, KPIs, and slicers.
 
-## 🧩 Business Problem
-- Identify key revenue-generating categories and platforms
-- Understand customer revenue concentration (Pareto analysis)
-- Analyze the impact of delivery time on order volume
-- Evaluate revenue distribution across order value bands
+---
 
-## 🛠 Tools & Techniques
-- Power Query for data cleaning and transformation
-- Excel PivotTables for aggregation and analysis
-- Advanced Excel charts (Pareto, bar, scatter)
-- Slicers for interactive filtering
-- KPI cards for executive summary
+## 📌 Contents
 
-## 📊 Key Insights
-- A small percentage of customers contribute the majority of revenue (80/20 rule)
-- Certain platforms dominate revenue contribution, indicating dependency risk
-- Faster delivery times are associated with higher order volumes
-- Mid-value order bands generate the highest revenue
+<a href="#overview">Overview</a> 
 
-## 📂 Repository Structure
-Dataset/ → Raw dataset
-Workbook/ → Excel analysis workbook
-Dashboard/ → Dashboard screenshot and walkthrough video
+<a href="#business-problem">Business Problem</a> 
+
+<a href="#data-source">Data Source</a> 
+
+<a href="#tools--technologies">Tools & Technologies</a>
+
+<a href="#project-structure">Project Structure</a> 
+
+<a href="#dashboard--analytics">Dashboard & Analytics</a>
+
+<a href="#key-insights">Key Insights</a> 
+
+<a href="#business-recommendations">Business Recommendations</a>
+
+<a href="#author--contact">Author & Contact</a>
 
 
-## 📸 Dashboard Preview
-![Dashboard](Dashboard/dashboard_screenshot.png)
+---
 
-## 🎥 Interactive Demo
-A short screen-recorded video demonstrating slicers and interactivity is included in the Dashboard folder.
+## <h2><a class="anchor" id="overview"></a>Overview</h2>
 
-## 📈 Skills Demonstrated
-- Business analytics thinking
-- Excel dashboard design
-- Data modeling with PivotTables
-- Translating data into business insights
+This project delivers an interactive Excel dashboard to analyze sales revenue, customer contribution, delivery performance, and platform-level trends. The solution transforms raw transactional data into business-ready insights using Excel-based data cleaning, pivot modeling, calculated metrics, and dynamic visualizations.
+
+The dashboard is designed for stakeholder-friendly decision-making with slicers, KPI cards, and performance visuals that update dynamically based on user selections.
+
+---
+
+## <h2><a class="anchor" id="business-problem"></a>Business Problem</h2>
+
+Business teams often struggle to extract actionable insights from raw sales data due to:
+
+* Lack of visibility into revenue drivers
+* Difficulty identifying top customers and categories
+* Limited understanding of delivery delays and service impact
+* Manual reporting with static views
+* Inability to slice performance across dimensions dynamically
+
+This project addresses these challenges by building a centralized, interactive Excel dashboard that enables quick exploration of revenue, customers, platforms, and delivery metrics.
+
+---
+
+## <h2><a class="anchor" id="data-sources"></a>Data Source</h2>
+
+Dataset Link : https://www.kaggle.com/datasets/logiccraftbyhimanshi/e-commerce-analytics-swiggy-zomato-blinkit
+
+---
+
+## <h2><a class="anchor" id="tools--technologies"></a>Tools & Technologies</h2>
+
+* **Microsoft Excel**
+
+  * Power Query (data cleaning & transformation)
+  * Pivot Tables & Pivot Charts
+  * Slicers & Filters
+  * Calculated fields & formulas
+
+---
+
+
+## <h2><a class="anchor" id="project-structure"></a>Project Structure</h2>
+
+```
+E-Commerce-Analytics-Excel/
+│
+├── README.md
+│
+├── Dataset/
+│   └── Ecommerce_Delivery_Analytics_New.csv          # Original raw dataset
+│
+├── Workbook/
+│   └── Ecommerce analytics.xlsx          # Cleaned data, pivots, dashboard
+│
+├── Dashboard/
+│   ├── dashboard screenshot.png     # Final dashboard image
+│   └── dashboard walkthrough.mp4    # Interactive screen recording
+```
+
+---
+
+
+## <h2><a class="anchor" id="dashboard--analytics"></a>Dashboard & Analytics</h2>
+
+The Excel dashboard enables interactive analysis across multiple dimensions:
+
+**Key Visuals Include:**
+
+* Revenue by Product Category
+* Revenue Contribution by Platform
+* Top 10 Customers by Revenue
+* Delivery Time vs Order Volume
+* Revenue Distribution by Value Bands
+
+![E-Commerce Analytics Dashboard](Dashboard/dashboard screenshot.png)
+
+---
+
+## <h2><a class="anchor" id="key-insights"></a>Key Insights</h2>
+
+* A small percentage of customers contribute a majority of total revenue (Pareto effect observed)
+* Certain platforms consistently outperform others in revenue contribution
+* High delivery times correlate with lower order volumes
+* Revenue is heavily concentrated within specific value bands
+* Top customers and categories significantly influence overall performance
+
+---
+
+## <h2><a class="anchor" id="business-recommendations"></a>Business Recommendations</h2>
+
+* Prioritize retention strategies for high-revenue customers
+* Focus marketing efforts on top-performing platforms and categories
+* Improve delivery efficiency to reduce delays and enhance customer satisfaction
+* Monitor revenue concentration risk to avoid dependency on limited customers
+* Use dashboard slicers regularly for targeted, data-driven decisions
+
+---
+
+## <h2><a class="anchor" id="author--contact"></a>Author & Contact</h2>
+
+**Prasanth Reddy Majji**  
+Data Analyst  
+📧 Email: majjiprasanthreddy@gmail.com  
+🔗 [LinkedIn](https://www.linkedin.com/in/prasanthreddymajji/)
