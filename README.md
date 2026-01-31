@@ -106,12 +106,12 @@ The Excel dashboard enables interactive analysis across multiple dimensions:
 
 ## <h2><a class="anchor" id="key-insights"></a>Key Insights</h2>
 
-* A small percentage of customers contribute a majority of total revenue (Pareto effect observed)
-* Certain platforms consistently outperform others in revenue contribution
-* High delivery times correlate with lower order volumes
-* Revenue is heavily concentrated within specific value bands
-* Top customers and categories significantly influence overall performance
-
+* Personal Care and Grocery categories emerge as the strongest revenue drivers compared to other product categories.
+* Orders with longer delivery times show a visible decline in volume, indicating a negative impact of delays on order frequency.
+* High-value orders form the majority of total revenue, while low-value orders contribute a relatively small share.
+* Over 6.1K customers of total 9K customers contribute 80 % of Total Revenue
+* All the Platforms contribute approximately equal share of revenue by generating higher high-value order revenue.
+  
 ---
 
 ## <h2><a class="anchor" id="business-recommendations"></a>Business Recommendations</h2>
@@ -120,7 +120,7 @@ The Excel dashboard enables interactive analysis across multiple dimensions:
 * Focus marketing efforts on top-performing platforms and categories
 * Improve delivery efficiency to reduce delays and enhance customer satisfaction
 * Monitor revenue concentration risk to avoid dependency on limited customers
-* Use dashboard slicers regularly for targeted, data-driven decisions
+* Leverage dashboard slicers regularly for targeted, data-driven decisions
 
 ---
 
