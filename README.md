@@ -82,7 +82,6 @@ E-Commerce-Analytics-Excel/
 │
 ├── Dashboard/
 │   ├── dashboard screenshot.png     # Final dashboard image
-│   └── dashboard walkthrough.mp4    # Interactive screen recording
 ```
 
 ---
